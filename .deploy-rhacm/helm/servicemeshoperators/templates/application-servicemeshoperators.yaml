@@ -31,7 +31,7 @@ metadata:
     app: servicemeshoperators
   annotations:
     apps.open-cluster-management.io/github-path: auth/helm/servicemeshoperators
-    apps.open-cluster-management.io/github-branch: rhacm
+    apps.open-cluster-management.io/github-branch: main
 spec:
   channel: {{ .Release.Namespace }}/servicemeshoperators-latest
   placement:

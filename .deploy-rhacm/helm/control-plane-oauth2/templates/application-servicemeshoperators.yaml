@@ -31,7 +31,7 @@ metadata:
     app: control-plane-oauth2
   annotations:
     apps.open-cluster-management.io/github-path: auth/helm/control-plane-oauth2
-    apps.open-cluster-management.io/github-branch: rhacm
+    apps.open-cluster-management.io/github-branch: main
 spec:
   channel: {{ .Release.Namespace }}/control-plane-oauth2-latest
   placement:
